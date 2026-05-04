@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>El Miguelón — Bar de Tapas en Triana, Sevilla</title>
+    <meta name="description" content="Bar de tapas tradicional en Triana, Sevilla. Carnes a la brasa, guisos caseros, pescaítos fritos y montaditos. Ven a tomarte tu tapa con nosotros." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+      <div class="nav-inner container">
+        <a href="#inicio" class="brand">
+          <span class="brand-tile">M</span>
+          <span class="brand-name">El Miguelón</span>
+        </a>
+        <nav class="nav-links" aria-label="Principal">
+          <a href="#carta">La Carta</a>
+          <a href="#nosotros">El Bar</a>
+          <a href="#contacto">Contacto</a>
+          <a href="#contacto">Donde Estamos</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+          <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="nav-mobile" id="navMobile" hidden>
+        <nav>
+          <a href="#carta">La Carta</a>
+          <a href="#nosotros">El Bar</a>
+          <a href="#contacto">Contacto</a>
+          <a href="#contacto">Donde Estamos</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="hero-bg">
+        <img src="images/hero.png" alt="Interior de El Miguelón en Triana" />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow">Bar de Tapeo · Triana · Sevilla</p>
+        <h1 class="hero-title">El Miguelón <i>Por tí.</i></h1>
+        <p class="hero-sub">
+          Carnes a la brasa, guisos de siempre, pescaítos y montaditos.<br />
+          Bar de barrio con alma Trianera desde hace años.<br />
+          <i>¡Lo de to la vida!</i>
+        </p>
+        <div class="hero-actions">
+          <a href="#carta" class="btn btn-primary">Ver la Carta</a>
+          <a href="#contacto" class="btn btn-outline">Cómo Llegar</a>
+        </div>
+      </div>
+      <div class="tile-strip tile-strip-bottom"></div>
+    </section>
+
+    <!-- EL BAR -->
+    <section id="nosotros" class="section section-cream">
+      <div class="tile-strip tile-strip-top"></div>
+      <div class="container grid-2 grid-2-center">
+        <div class="about-img-wrap">
+          <img src="images/barra.png" alt="La barra de El Miguelón" class="about-img" />
+        </div>
+        <div>
+          <p class="section-eyebrow">El Bar</p>
+          <h2 class="section-title">Un pedacito de <em>Triana</em> de toda la vida.</h2>
+          <div class="rich-text">
+            <p>
+              <br>Miguelón no es solo un bar. <i>Es un homenaje.</i><br />
+
+              El nombre no es un capricho. Es una forma de que Miguel siga siendo parte de Triana, de esta barra, de cada día que se abre la persiana.
+            </p>
+            <p>
+              <br> Por eso aquí todo se hace con cariño: desde los guisos hasta el trato con los clientes.
+              Porque no es solo un negocio, sino una manera de mantener viva la memoria de alguien que lo merecía todo. <br />       
+              Gracias por venir. Él estaría encantado de verte aquí.
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="tile-strip tile-strip-bottom"></div>
+    </section>
+
+    <!-- CARTA -->
+    <section id="carta" class="section section-dark">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-eyebrow eyebrow-light">La Carta</p>
+          <h2 class="section-title section-title-light">Para comer <em>bien</em>,<br/>como en casa.</h2>
+          <p class="section-sub">Tapa o plato, tú decides. 
+            <br>Pregunta siempre por <i>nuestros postres </i> del día.</p><br />
+        </div>
+
+        <!-- Fotos de apertura -->
+        <div class="carta-photos">
+          <figure class="carta-photo">
+            <img src="images/tapas.png" alt="Patatas bravas" />
+            <figcaption>Para empezar</figcaption>
+          </figure>
+          <figure class="carta-photo">
+            <img src="images/montadito.png" alt="Montadito de solomillo" />
+            <figcaption>Montaditos</figcaption>
+          </figure>
+          <figure class="carta-photo">
+            <img src="images/guiso.png" alt="Guiso casero" />
+            <figcaption>Guisos</figcaption>
+          </figure>
+          <figure class="carta-photo">
+            <img src="images/pescado.png" alt="Pescaíto frito" />
+            <figcaption>Pescados</figcaption>
+          </figure>
+        </div>
+        <div class="menu-sections">
+
+          <!-- PARA COMENZAR -->
+          <div class="menu-section">
+            <div class="menu-section-header">
+              <h3>Para Comenzar</h3>
+              <div class="menu-header-cols"><span>Tapa</span><span>Plato</span></div>
+            </div>
+            <div class="menu-items">
+              <div class="menu-item"><span class="mi-name">Ensalada Mixta</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">7,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Ensalada César</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">8,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Ensalada Caprese</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">7,50 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Tomate con Melva</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">6,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Ensaladilla</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">8,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Aliños Varios</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">8,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Caballa Ahumada</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">10,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Boquerones en Vinagre</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">9,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Anchoas de Santoña</span><span class="mi-prices"><span class="mi-tapa">4,50 €</span><span class="mi-plato">12,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Anchoas &amp; Queso Viejo</span><span class="mi-prices"><span class="mi-tapa">5,00 €</span><span class="mi-plato">13,50 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Mejillones Cocidos</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">10,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Carne Mechada</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">9,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Chicharrón de Cádiz</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">9,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Patatas Bravas, Alioli, Roque</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">8,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Queso Apolonio</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">12,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Jamón</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">12,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Caña de Lomo</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">12,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Queso Provolone</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">7,00 €</span></span></div>
+            </div>
+          </div>
+
+          <!-- CARNES -->
+          <div class="menu-section">
+            <div class="menu-section-header">
+              <h3>Carnes</h3>
+              <div class="menu-header-cols"><span>Tapa</span><span>Plato</span></div>
+            </div>
+            <div class="menu-items">
+              <div class="menu-item"><span class="mi-name">Solomillos: Whisky, Mojo e Ibérico</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">10,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Lagartito Ibérico</span><span class="mi-prices"><span class="mi-tapa">3,90 €</span><span class="mi-plato">12,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Pluma Ibérica</span><span class="mi-prices"><span class="mi-tapa">3,90 €</span><span class="mi-plato">12,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Presa Ibérica</span><span class="mi-prices"><span class="mi-tapa">3,90 €</span><span class="mi-plato">12,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Churrasco de Cerdo</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">8,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Churrasco de Pollo</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">7,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Pechuga de Pollo</span><span class="mi-prices"><span class="mi-tapa">3,00 €</span><span class="mi-plato">7,50 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Pinchito de Pollo</span><span class="mi-prices"><span class="mi-tapa">3,00 €</span><span class="mi-plato">—</span></span></div>
+              <div class="menu-item"><span class="mi-name">Cachopo Ternera</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">13,50 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Cachopo Roquefort</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">13,50 €</span></span></div>
+              <div class="menu-item mi-extra"><span class="mi-name">Suplemento Jamón</span><span class="mi-prices"><span class="mi-tapa">1,00 €</span><span class="mi-plato">2,50 €</span></span></div>
+            </div>
+          </div>
+
+          <!-- MONTADITOS -->
+          <div class="menu-section">
+            <div class="menu-section-header no-cols">
+              <h3>Montaditos</h3>
+            </div>
+            <p class="section-note">Todos los montaditos <strong>3,00 – 3,50 €</strong></p>
+            <div class="menu-items montaditos-grid">
+              <div class="menu-item-simple">Lomo <span>3,00 €</span></div>
+              <div class="menu-item-simple">Pollo <span>3,00 €</span></div>
+              <div class="menu-item-simple">Capote de Melva <span>3,50 €</span></div>
+              <div class="menu-item-simple">Chorizo Picante <span>3,00 €</span></div>
+              <div class="menu-item-simple">Solomillo al Gusto <span>3,50 €</span></div>
+              <div class="menu-item-simple">Jamón <span>3,50 €</span></div>
+              <div class="menu-item-simple">Queso <span>3,50 €</span></div>
+              <div class="menu-item-simple">Caña de Lomo <span>3,50 €</span></div>
+            </div>
+            <p class="section-note" style="margin-top:16px;">Suplemento Jamón ó Queso <strong>+0,80 €</strong> · Pan, Picos y Salsas <strong>0,70 €</strong></p>
+          </div>
+
+          <!-- GUISOS -->
+          <div class="menu-section">
+            <div class="menu-section-header">
+              <h3>Guisos</h3>
+              <div class="menu-header-cols"><span>Tapa</span><span>Plato</span></div>
+            </div>
+            <div class="menu-items">
+              <div class="menu-item"><span class="mi-name">Carrillada Ibérica</span><span class="mi-prices"><span class="mi-tapa">3,90 €</span><span class="mi-plato">10,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Espinacas con Garbanzos</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">9,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Espinacas Gratinadas</span><span class="mi-prices"><span class="mi-tapa">4,00 €</span><span class="mi-plato">10,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Menudo con Garbanzos</span><span class="mi-prices"><span class="mi-tapa">3,50 €</span><span class="mi-plato">9,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Bacalao con Tomate</span><span class="mi-prices"><span class="mi-tapa">3,90 €</span><span class="mi-plato">10,00 €</span></span></div>
+            </div>
+          </div>
+
+          <!-- PESCADOS -->
+          <div class="menu-section">
+            <div class="menu-section-header">
+              <h3>Pescados</h3>
+              <div class="menu-header-cols"><span>Tapa</span><span>Plato</span></div>
+            </div>
+            <div class="menu-items">
+              <div class="menu-item"><span class="mi-name">Chocos Fritos</span><span class="mi-prices"><span class="mi-tapa">3,80 €</span><span class="mi-plato">10,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Boquerones Fritos</span><span class="mi-prices"><span class="mi-tapa">3,80 €</span><span class="mi-plato">10,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Taquito Merluza</span><span class="mi-prices"><span class="mi-tapa">3,90 €</span><span class="mi-plato">11,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Taquito Bacalao</span><span class="mi-prices"><span class="mi-tapa">3,90 €</span><span class="mi-plato">11,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Adobo</span><span class="mi-prices"><span class="mi-tapa">3,80 €</span><span class="mi-plato">10,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Pavía de Merluza</span><span class="mi-prices"><span class="mi-tapa">4,00 €</span><span class="mi-plato">—</span></span></div>
+              <div class="menu-item"><span class="mi-name">Atún Plancha</span><span class="mi-prices"><span class="mi-tapa">4,50 €</span><span class="mi-plato">—</span></span></div>
+              <div class="menu-item"><span class="mi-name">Choco Plancha</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">12,50 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Pez Espada</span><span class="mi-prices"><span class="mi-tapa">5,00 €</span><span class="mi-plato">—</span></span></div>
+            </div>
+          </div>
+
+          <!-- SUGERENCIAS -->
+          <div class="menu-section">
+            <div class="menu-section-header">
+              <h3>Sugerencias del Chef</h3>
+              <div class="menu-header-cols"><span>Tapa</span><span>Plato</span></div>
+            </div>
+            <div class="menu-items">
+              <div class="menu-item"><span class="mi-name">Berenjena Gratinada</span><span class="mi-prices"><span class="mi-tapa">4,50 €</span><span class="mi-plato">—</span></span></div>
+              <div class="menu-item"><span class="mi-name">Champiñón Relleno</span><span class="mi-prices"><span class="mi-tapa">4,00 €</span><span class="mi-plato">11,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Brocheta de Gambón</span><span class="mi-prices"><span class="mi-tapa">3,80 €</span><span class="mi-plato">—</span></span></div>
+              <div class="menu-item"><span class="mi-name">Capirote de Langostino</span><span class="mi-prices"><span class="mi-tapa">3,80 €</span><span class="mi-plato">9,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Tortillita de Langostino</span><span class="mi-prices"><span class="mi-tapa">3,80 €</span><span class="mi-plato">9,50 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Gambas Rebozadas</span><span class="mi-prices"><span class="mi-tapa">3,80 €</span><span class="mi-plato">9,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Pollo Cajun, Miel y Mostaza</span><span class="mi-prices"><span class="mi-tapa">3,80 €</span><span class="mi-plato">9,50 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Crujiente de Cabra</span><span class="mi-prices"><span class="mi-tapa">4,50 €</span><span class="mi-plato">—</span></span></div>
+              <div class="menu-item"><span class="mi-name">Queso de Cabra Frito</span><span class="mi-prices"><span class="mi-tapa">4,00 €</span><span class="mi-plato">7,50 €</span></span></div>
+              <div class="menu-item mi-long"><span class="mi-name">Croquetas: Cocido · Serranito · Atún y Pimiento · Cola de Toro · Huevo Frito y Chorizo</span><span class="mi-prices"><span class="mi-tapa">3,80 €</span><span class="mi-plato">10,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Flamenquín Cabra</span><span class="mi-prices"><span class="mi-tapa">4,50 €</span><span class="mi-plato">—</span></span></div>
+              <div class="menu-item"><span class="mi-name">Flamenquín Ali Oli</span><span class="mi-prices"><span class="mi-tapa">4,00 €</span><span class="mi-plato">—</span></span></div>
+              <div class="menu-item"><span class="mi-name">Flamenquín Merluza &amp; Gambas</span><span class="mi-prices"><span class="mi-tapa">6,50 €</span><span class="mi-plato">—</span></span></div>
+              <div class="menu-item"><span class="mi-name">Cazuela Gambón al Ajillo</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">10,00 €</span></span></div>
+              <div class="menu-item"><span class="mi-name">Cazuela Gulas con Langostino</span><span class="mi-prices"><span class="mi-tapa">—</span><span class="mi-plato">9,00 €</span></span></div>
+            </div>
+          </div>
+
+        </div><!-- end menu-sections -->
+
+        <!-- Postres -->
+        <div class="postres-banner">
+          <span class="postres-icon">🍮</span>
+          <p><strong>Postres: </strong> Consultar al camarero/a · Cambian cada día</p>
+        </div>
+
+        <p class="allergen-note"> *Dudas con los alérgenos, consultar con cualquiera de los camareros/as.</p>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section section-cream">
+      <div class="tile-strip tile-strip-top"></div>
+      <div class="container grid-2">
+        <div>
+          <p class="section-eyebrow">Dónde Estamos</p>
+          <h2 class="section-title">Ven a vernos<br/>en <em>Triana</em>.</h2>
+          <div class="contact-blocks">
+            <div class="contact-block">
+              <h4>📍 Dirección</h4>
+              <p>Av. de la República Argentina, 52, 41011 Sevilla</p>
+              <small>A dos pasos de Plaza de Cuba</small>
+            </div>
+            <div class="contact-block">
+              <h4>🕐 Horario</h4>
+              <ul class="hours">
+                <li><span>Lun</span><strong>10:00 - 00:00</strong></li>
+                <li><span>Mar</span><strong>10:00 – 17:00</strong></li>
+                <li><span>Mier - Sábado</span><strong>10:00 - 00:00</strong></li>
+                <li><span>Domingo</span><strong>10:00 – 17:00</strong></li>
+              </ul>
+              <p>Horario Continuo (Non - Stop)</p>
+            </div>
+            <div class="contact-block">
+              <h4>📞  TEL: 646 80 76 39</h4>
+              <p><a href="tel:+34600000000" class="link-red">Llámanos para reservar</a></p>
+              <small>Reservas para grupos y eventos</small>
+            </div>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            title="Mapa El Miguelón Triana Sevilla"
+            src="https://www.google.com/maps?q=Av.+de+la+República+Argentina,+52,+41011+Sevilla&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div class="tile-strip tile-strip-bottom"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <p class="footer-brand">El Miguelón</p>
+          <p class="footer-sub">Bar de tapas · Triana, Sevilla</p>
+        </div>
+        <div class="footer-links">
+          <a href="#carta">La Carta</a>
+          <a href="#nosotros">El Bar</a>
+          <a href="#contacto">Contacto</a>
+          <a href="#contacto">Donde Estamos</a>
+        </div>
+        <p class="footer-legal">© <span id="year"></span> El Miguelón · Triana, Sevilla</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
